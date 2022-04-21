@@ -78,6 +78,7 @@ main p {
 
 .img-main {
   width: 40%;
+  border-radius: 5%;
 }
 
 .btn {
@@ -117,6 +118,7 @@ main p {
   width: 250px;
   height: 150px;
   margin-bottom: 3px;
+  border-radius: 8%;
 }
 
 .section-one p {
@@ -127,15 +129,25 @@ main p {
 /* SECTION TWO */
 
 .container-two {
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .section-two {
-  height: 380px;
+  height: 280px;
   background: #e5e7eb;
+  padding: 20px;
 }
 
 .section-two p {
+  color: #1f2937;
+  font-size: 20px;
+  font-weight: 300;
   padding-top: 50px;
   margin-bottom: 5px;
+  text-align: center;
+}
+
+.section-two span {
+  margin-left: 64%;
+  font-weight: 700;
 }
