@@ -81,7 +81,7 @@ main p {
   border-radius: 5%;
 }
 
-.btn {
+.btn-first {
   background: #3883f6;
   border: none;
   border-radius: 8px;
@@ -150,4 +150,39 @@ main p {
 .section-two span {
   margin-left: 64%;
   font-weight: 700;
+}
+
+/* SECTION THREE */
+
+.section-three {
+  height: 150px;
+}
+
+.container-section-three {
+  display: flex;
+  justify-content: space-evenly;
+  background: #3883f6;
+  width: 50%;
+  margin: 80px auto;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.firstp-box {
+  margin-bottom: 2px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.secondp-box {
+  color: #e5e7eb;
+  font-size: 14px;
+  font-weight: 300px;
+}
+
+.btn-two {
+  background: #3883f6;
+  border-color: #fff;
+  border-radius: 8px;
+  padding: 10px 30px;
 }
