@@ -93,3 +93,49 @@ main p {
 }
 
 /* SECTION ONE */
+
+.flex-section-one {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.section-one {
+  height: 400px;
+}
+
+.section-one h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.section-one img {
+  width: 250px;
+  height: 150px;
+  margin-bottom: 3px;
+}
+
+.section-one p {
+  text-align: center;
+  color: rgb(31, 29, 29);
+}
+
+/* SECTION TWO */
+
+.container-two {
+  margin: 0 auto;
+}
+
+.section-two {
+  height: 380px;
+  background: #e5e7eb;
+}
+
+.section-two p {
+  padding-top: 50px;
+  margin-bottom: 5px;
+}
